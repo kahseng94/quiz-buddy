@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  basePath: '/quiz-buddy',
+  assetPrefix: '/quiz-buddy/',
 }
 
 export default nextConfig
